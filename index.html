@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- Site Metas -->
+<title>aafiya-mediretreats</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Site Icons -->
+<link rel="shortcut icon" href="images/fevicon.ico.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="style.css">
+<!-- Colors CSS -->
+<link rel="stylesheet" href="css/colors.css">
+<!-- ALL VERSION CSS -->
+<link rel="stylesheet" href="css/versions.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+<!-- Modernizer for Portfolio -->
+<script src="js/modernizer.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</script>
+<!-- [if lt IE 9] -->
+<style>
+   .navbar-brand {
+      display: flex;
+      align-items: center;
+
+      /* Vertically align the images if needed */
+   }
+
+   .navbar-brand .logo,
+   .navbar-brand .second-logo {
+      max-width: 100%;
+      height: 70px;
+      width: 230px;
+      /* Adjust the width as needed */
+   }
+
+   .navbar-brand .second-logo {
+      margin-left: 10px;
+      /* Adjust the spacing between the images */
+   }
+
+   /* Adjust the width for smaller screens if needed */
+   @media (max-width: 768px) {
+
+      .navbar-brand .logo,
+      .navbar-brand .second-logo {
+         width: 150px;
+
+      }
+
+   }
+
+   @media (max-width: 480px) {
+
+      .navbar-brand .logo,
+      .navbar-brand .second-logo {
+         width: 120px;
+      }
+   }
+
+   .info-inner {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      /* Space between items */
+   }
+
+   .info-inner .icontop {
+      font-size: 24px;
+      /* Adjust icon size */
+      color: #333;
+      /* Icon color */
+   }
+
+   .info-inner .iconcont {
+      font-size: 16px;
+      /* Adjust text size */
+      color: #333;
+      /* Text color */
+   }
+
+   .info-inner .iconcont a {
+      text-decoration: none;
+      color: #007bff;
+      /* Link color */
+   }
+
+   .info-inner .iconcont a:hover {
+      text-decoration: underline;
+      /* Underline on hover */
+   }
+
+   .country-select {
+      display: flex;
+      align-items: center;
+   }
+
+   .country-icon {
+      font-size: 24px;
+      /* Icon size */
+      color: rgb(177, 0, 0);
+      /* Red color for country icon */
+      margin-right: 1px;
+      /* Space between icon and dropdown */
+   }
+
+   .dropdown {
+      position: relative;
+   }
+
+   .dropdown .dropdown-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      /* Adjust arrow size */
+      color: #333;
+      /* Arrow color */
+   }
+
+   .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100px;
+      /* Adjust width as needed */
+   }
+
+   .dropdown-menu li {
+      padding: 8px;
+   }
+
+   .dropdown-menu li a {
+      color: #333;
+      text-decoration: none;
+      display: block;
+   }
+
+   .dropdown-menu li a:hover {
+      background-color: #f8f8f8;
+   }
+
+   .dropdown.show .dropdown-menu {
+      display: block;
+   }
+
+   /* dropdown */
+   .nav {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+   }
+
+   .nav>li {
+      position: relative;
+      display: inline-block;
+   }
+
+   .nav a {
+      text-decoration: none;
+      color: #007bff;
+      /* Link color */
+      padding: 10px 15px;
+      display: block;
+   }
+
+   .nav a.active {
+      font-weight: bold;
+   }
+
+   .dropdown-menu {
+      display: none;
+      /* Hide menu by default */
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 200px;
+      /* Adjust width as needed */
+   }
+
+   .dropdown-menu li {
+      padding: 10px;
+   }
+
+   .dropdown-menu li a {
+      color: #333;
+      text-decoration: none;
+   }
+
+   .dropdown-menu li a:hover {
+      background-color: #f8f8f8;
+   }
+
+   .dropdown:hover .dropdown-menu {
+      display: block;
+      /* Show menu on hover */
+   }
+
+   /* Responsive styles */
+   @media (max-width: 768px) {
+      .nav {
+         display: flex;
+         flex-direction: column;
+      }
+
+      .nav>li {
+         display: block;
+      }
+
+      .dropdown-menu {
+         position: static;
+         width: 100%;
+         /* Full width on small screens */
+      }
+
+      .dropdown:hover .dropdown-menu {
+         display: none;
+         /* Hide dropdown on hover for mobile */
+      }
+
+      .dropdown.show .dropdown-menu {
+         display: block;
+         /* Show dropdown when toggled */
+      }
+   }
+
+   /* tab section */
+   .tab-container {
+      width: 100%;
+      /* Full width like container-fluid */
+      background-color: #fff;
+      /* White background */
+   }
+
+   .tab-nav {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      background: #fff;
+      /* Ensure background is white for the tabs */
+      border-bottom: 1px solid #ddd;
+      /* Subtle border at the bottom */
+   }
+
+   .tab-nav .tab-item {
+      flex: 1;
+      text-align: center;
+      cursor: pointer;
+      background: #fff;
+      /* Background color of inactive tabs */
+      color: #000;
+      /* Text color */
+      transition: background-color 0.3s, color 0.3s;
+   }
+
+   .tab-nav .tab-item:last-child {
+      border-right: none;
+      /* Remove right border from last tab */
+   }
+
+   .tab-nav .tab-item.active {
+      background: #fff;
+      /* Active tab background color */
+      color: #000;
+      /* Active tab text color */
+      border-bottom: 2px solid #000;
+      /* Black line under active tab */
+   }
+
+   .tab-content {
+      padding: 75px;
+      background: #fff;
+      /* Background color of the content area */
+   }
+
+   .tab-pane {
+      display: none;
+      /* Hide all tab content by default */
+   }
+
+   .tab-pane.active {
+      display: block;
+      /* Show the active tab content */
+   }
+
+   @media (max-width: 768px) {
+      .tab-nav {
+         flex-direction: column;
+      }
+
+      .tab-nav .tab-item {
+         margin: 0;
+         border-radius: 0;
+         border: none;
+      }
+
+      .tab-nav .tab-item.active {
+         border-bottom: 1px solid #007bff;
+      }
+   }
+
+   .hr1 {
+      border: none;
+      /* Remove default border */
+      height: 1px;
+      /* Set height for the hr line */
+      background-color: rgb(0, 136, 255);
+      /* Set the background color */
+   }
+
+   .content-section {
+      height: 100vh;
+      overflow-y: scroll;
+      /* Allows scrolling */
+      padding-right: 20px;
+      scrollbar-width: none;
+      /* For Firefox */
+      -ms-overflow-style: none;
+      /* For Internet Explorer and Edge */
+   }
+
+   .content-section::-webkit-scrollbar {
+      display: none;
+      /* For Chrome, Safari, and Opera */
+   }
+
+   .sticky-form {
+      position: sticky;
+      top: 20px;
+   }
+
+   .accordion-container {
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      margin: 10px auto;
+   }
+
+   .accordion-container>h2 {
+      text-align: center;
+      color: #fff;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+   }
+
+   .set {
+      position: relative;
+      width: 100%;
+      height: auto;
+      background-color: #f5f5f5;
+   }
+
+   .set>a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 600;
+      border-bottom: 1px solid #ddd;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+   }
+
+   .set>a i {
+      float: right;
+      margin-top: 2px;
+   }
+
+   .set>a.active {
+      background-color: #3399cc;
+      color: #fff;
+   }
+
+   .content {
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      display: none;
+   }
+
+   .content p {
+      padding: 10px 15px;
+      margin: 0;
+      color: #333;
+   }
+
+   .home-demo .item {
+      background: #ff3f4d;
+   }
+
+   .home-demo h2 {
+      color: #FFF;
+      text-align: center;
+      padding: 5rem 0;
+      margin: 0;
+      font-style: italic;
+      font-weight: 300;
+   }
+</style>
+</head>
+
+<body class="clinic_version">
+   <!-- LOADER -->
+   <div id="preloader">
+      <img class="preloader" src="images/loaders/heart-loading2.gif" alt="">
+   </div>
+   <!-- END LOADER -->
+   <header>
+      <div class="header-top wow fadeIn">
+         <div class="container-fluid" style="margin-left: 16px !important; ">
+            <a class="navbar-brand" href="index.html">
+               <img src="images/logo-img.webp" alt="image" class="logo">
+               <img src="images/logo-circle-removebg-preview.png" alt="second image" class="second-logo"
+                  style="height:80px; width:90px; margin-left: 50px;">
+            </a>
+
+            <div class="right-header" style="margin-right: 120px;">
+               <div class="header-info">
+                  <div class="info-inner">
+                     <span class="icontop"><img src="images/icon-1.png" alt="#"></span>
+                     <h5 class="iconcont"><a href="#"><small>Second Medical Opinion </small><br>Book Consultation</a>
+                     </h5>
+                  </div>
+                  <div class="info-inner">
+                     <span class="icontop"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                     <h5 class="iconcont"><a href="tel:800 123 456"><small>Call Us On </small><br>800 123 456</a></h5>
+                  </div>
+                  <div class="info-inner">
+                     <span class="icontop"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                     <h5 class="iconcont"><a href="mailto:info@yoursite.com"><small>Email Us On
+                           </small><br>info@yoursite.com</a></h5>
+                  </div>
+                  <div class="info-inner">
+                     <div class="country-select">
+                        <span class="country-icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                        <div class="dropdown">
+                           <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                           </button>
+                           <ul class="dropdown-menu">
+                              <li><a href="#" data-value="in">India</a></li>
+                              <li><a href="#" data-value="uk">United Kingdom</a></li>
+                              <li><a href="#" data-value="ca">Canada</a></li>
+                              <li><a href="#" data-value="au">Australia</a></li>
+                              <!-- Add more country options as needed -->
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+      <div class="header-bottom wow fadeIn">
+         <div class="container-fluid">
+            <nav class="main-menu">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                     aria-expanded="false" aria-controls="navbar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+               </div>
+
+               <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                     <li><a class="active" href="index.html">Home</a></li>
+                     <li><a data-scroll href="#about">About us</a></li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Treatment +</a>
+                        <ul class="dropdown-menu">
+                           <li><a data-scroll href="#service1">Service 1</a></li>
+                           <li><a data-scroll href="#service2">Service 2</a></li>
+                           <li><a data-scroll href="#service3">Service 3</a></li>
+                           <!-- Add more services as needed -->
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Destination +</a>
+                        <ul class="dropdown-menu">
+                           <li><a data-scroll href="#service1">Service 1</a></li>
+                           <li><a data-scroll href="#service2">Service 2</a></li>
+                           <li><a data-scroll href="#service3">Service 3</a></li>
+                           <!-- Add more services as needed -->
+                        </ul>
+                     </li>
+                     <li><a data-scroll href="#doctors">Hospital</a></li>
+                     <li><a data-scroll href="#price">FAQs</a></li>
+                     <li><a data-scroll href="#testimonials">Blog</a></li>
+                     <li><a data-scroll href="#getintouch">Request A Quote</a></li>
+                  </ul>
+               </div>
+            </nav>
+            <div class="serch-bar">
+               <div id="custom-search-input">
+                  <div class="input-group col-md-12">
+                     <input type="text" class="form-control input-lg" placeholder="Search" />
+                     <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                           <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div id="home" class="parallax first-section wow fadeIn" data-stellar-background-ratio="0.4"
+      style="background-image:url('images/slider-bg.png');">
+      <div class="container">
+         <div class="row" style="margin-top:100px;">
+            <div class="col-md-12 col-sm-12">
+               <div class="text-contant" style="float:left;">
+
+                  <center>
+                     <h3><span>Home < Treatment < Knee Replacement</span> </h3> </center> <h2>Total Knee Replacement
+                              </h2>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                    <div class="form-group">
+                                       <div class="center"><button type="submit">Enquire Now</button></div>
+                                    </div>
+                                 </div>
+                              </div>
+               </div>
+            </div>
+         </div>
+         <!-- end row -->
+      </div>
+      <!-- end container -->
+   </div>
+   <div id="about" class="section wow fadeIn" style="margin-top:-70px;">
+      <div class="container-fluid">
+
+         <ul class="tab-nav">
+            <li class="tab-item active" data-tab="tab-overview">Overview</li>
+            <li class="tab-item" data-tab="tab-eligibility">Eligibility</li>
+            <li class="tab-item" data-tab="tab-preparation">Preparation</li>
+            <li class="tab-item" data-tab="tab-about-treatment">About Treatment</li>
+            <li class="tab-item" data-tab="tab-post-treatment-care">Post-Treatment Care</li>
+            <li class="tab-item" data-tab="tab-recovery-tips">Recovery Tips</li>
+            <li class="tab-item" data-tab="tab-faqs">FAQs</li>
+            <li class="tab-item" data-tab="tab-patient-stories">Patient Stories</li>
+         </ul>
+         <div class="tab-content" style="margin-top:-20px;">
+            <div id="tab-overview" class="tab-pane active">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="message-box">
+                        <h2>Treatment Overview</h2>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+                        <p style="text-align: justify; "> Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                           venenatis nibh sed tellus faucibus
+                           bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                           dis
+                           parturient montes, nascetur ridiculus mus. </p><br>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim Quisque eget nisl id nulla sagittis
+                           auctor quis id. Aliquam
+                           quis vehicula enim.</p><br>
+
+                     </div>
+                     <!-- end messagebox -->
+                  </div>
+                  <!-- end col -->
+                  <div class="col-md-6">
+                     <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-responsive">
+                     </div>
+                     <!-- end media -->
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+            <div id="tab-eligibility" class="tab-pane">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="message-box">
+                        <h2>Eligibility</h2>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+                        <p style="text-align: justify; "> Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                           venenatis nibh sed tellus faucibus
+                           bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                           dis
+                           parturient montes, nascetur ridiculus mus. </p><br>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+
+                     </div>
+                     <!-- end messagebox -->
+                  </div>
+                  <!-- end col -->
+                  <div class="col-md-6">
+                     <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-responsive">
+
+                     </div>
+                     <!-- end media -->
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+            <div id="tab-preparation" class="tab-pane">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="message-box">
+                        <h2>Treatment Overview</h2>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+                        <p style="text-align: justify; "> Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                           venenatis nibh sed tellus faucibus
+                           bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                           dis
+                           parturient montes, nascetur ridiculus mus. </p><br>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+
+                     </div>
+                     <!-- end messagebox -->
+                  </div>
+                  <!-- end col -->
+                  <div class="col-md-6">
+                     <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-responsive">\
+                     </div>
+                     <!-- end media -->
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+            <div id="tab-about-treatment" class="tab-pane">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="message-box">
+                        <h2>Treatment Overview</h2>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+                        <p style="text-align: justify; "> Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                           venenatis nibh sed tellus faucibus
+                           bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                           dis
+                           parturient montes, nascetur ridiculus mus. </p><br>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+
+                     </div>
+                     <!-- end messagebox -->
+                  </div>
+                  <!-- end col -->
+                  <div class="col-md-6">
+                     <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-responsive">\
+                     </div>
+                     <!-- end media -->
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+            <div id="tab-post-treatment-care" class="tab-pane">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="message-box">
+                        <h2>Treatment Overview</h2>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+                        <p style="text-align: justify; "> Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                           venenatis nibh sed tellus faucibus
+                           bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                           dis
+                           parturient montes, nascetur ridiculus mus. </p><br>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+
+                     </div>
+                     <!-- end messagebox -->
+                  </div>
+                  <!-- end col -->
+                  <div class="col-md-6">
+                     <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-responsive">\
+                     </div>
+                     <!-- end media -->
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+            <div id="tab-recovery-tips" class="tab-pane">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="message-box">
+                        <h2>Treatment Overview</h2>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+                        <p style="text-align: justify; "> Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                           venenatis nibh sed tellus faucibus
+                           bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                           dis
+                           parturient montes, nascetur ridiculus mus. </p><br>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+
+                     </div>
+                     <!-- end messagebox -->
+                  </div>
+                  <!-- end col -->
+                  <div class="col-md-6">
+                     <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-responsive">\
+                     </div>
+                     <!-- end media -->
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+            <div id="tab-faqs" class="tab-pane">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="message-box">
+                        <h2>Treatment Overview</h2>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+                        <p style="text-align: justify; "> Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                           venenatis nibh sed tellus faucibus
+                           bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                           dis
+                           parturient montes, nascetur ridiculus mus. </p><br>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+
+                     </div>
+                     <!-- end messagebox -->
+                  </div>
+                  <!-- end col -->
+                  <div class="col-md-6">
+                     <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-responsive">\
+                     </div>
+                     <!-- end media -->
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+            <div id="tab-patient-stories" class="tab-pane">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="message-box">
+                        <h2>Treatment Overview</h2>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+                        <p style="text-align: justify; "> Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                           venenatis nibh sed tellus faucibus
+                           bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                           dis
+                           parturient montes, nascetur ridiculus mus. </p><br>
+                        <p style="text-align: justify; ">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam
+                           quis vehicula enim, non
+                           aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p><br>
+
+                     </div>
+                     <!-- end messagebox -->
+                  </div>
+                  <!-- end col -->
+                  <div class="col-md-6">
+                     <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-responsive">\
+                     </div>
+                     <!-- end media -->
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- end title -->
+
+      <!-- end row -->
+      <hr class="hr1">
+
+      <!-- end container -->
+   </div>
+   <div id="about" class="section wow fadeIn" style="margin-top:-150px;">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8 content-section">
+               <div class="message-box">
+                  <h2>Treatment Overview</h2>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+                  <br>
+                  <p style="text-align: justify;">Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis
+                     nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque
+                     penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim Quisque eget nisl id nulla
+                     sagittis auctor quis id. Aliquam quis vehicula enim.</p>
+               </div>
+               <!-- end messagebox -->
+               <hr class="hr1">
+               <div class="message-box">
+                  <h2>Treatment Overview</h2>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+                  <br>
+                  <p style="text-align: justify;">Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis
+                     nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque
+                     penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim Quisque eget nisl id nulla
+                     sagittis auctor quis id. Aliquam quis vehicula enim.</p>
+               </div>
+               <hr class="hr1">
+               <div class="message-box">
+                  <h2>Treatment Overview</h2>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+                  <br>
+                  <p style="text-align: justify;">Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis
+                     nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque
+                     penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim Quisque eget nisl id nulla
+                     sagittis auctor quis id. Aliquam quis vehicula enim.</p>
+               </div>
+               <hr class="hr1">
+               <div class="message-box">
+                  <h2>Treatment Overview</h2>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+                  <br>
+                  <p style="text-align: justify;">Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis
+                     nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque
+                     penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim Quisque eget nisl id nulla
+                     sagittis auctor quis id. Aliquam quis vehicula enim.</p>
+               </div>
+               <hr class="hr1">
+               <div class="message-box">
+                  <h2>Treatment Overview</h2>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+                  <br>
+                  <p style="text-align: justify;">Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis
+                     nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque
+                     penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <br>
+                  <p style="text-align: justify;">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                     vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim Quisque eget nisl id nulla
+                     sagittis auctor quis id. Aliquam quis vehicula enim.</p>
+               </div>
+               <hr class="hr1">
+               <div class="message-box">
+                  <div class="accordion-container">
+                     <div class="set">
+                        <a href="#a1" class="accordion-toggle">
+                           1. What are your visiting hours?
+                           <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="content" id="a1">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna.</p>
+                        </div>
+                     </div>
+                     <div class="set">
+                        <a href="#a2" class="accordion-toggle">
+                           2. What are your visiting hours?
+                           <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="content" id="a2">
+                           <p>Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus.
+                              Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
+                        </div>
+                     </div>
+                     <div class="set">
+                        <a href="#a3" class="accordion-toggle">
+                           3. What are your visiting hours?
+                           <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="content" id="a3">
+                           <p>Pellentesque aliquam ligula libero, vitae imperdiet diam porta vitae. Sed do eiusmod
+                              tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                     </div>
+                     <div class="set">
+                        <a href="#a4" class="accordion-toggle">
+                           4. What are your visiting hours?
+                           <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="content" id="a4">
+                           <p>Donec tincidunt consectetur orci at dignissim. Proin auctor aliquam justo, vitae luctus
+                              odio pretium scelerisque.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <hr class="hr1">
+               <div class="message-box" id="testimonials">
+                  <div class="home-demo">
+                     <h3>Parent Stories And Videos</h3>
+                     <div class="owl-carousel owl-theme">
+                        <div class="item">
+                           <div class="testimonial clearfix">
+                              <div class="desc">
+                                 <h3><i class="fa fa-quote-left"></i> The amazing clinic! Wonderful Support!</h3>
+                                 <p class="lead">They have got my project on time with the competition with a sed highly
+                                    skilled,
+                                    and experienced & professional team.</p>
+                              </div>
+                              <div class="testi-meta">
+                                 <img src="images/testi_01.png" alt="" class="img-responsive alignleft">
+                                 <h4>James Fernando <small>- Manager of Racer</small></h4>
+                              </div>
+                              <!-- end testi-meta -->
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="testimonial clearfix">
+                              <div class="desc">
+                                 <h3><i class="fa fa-quote-left"></i> Thanks for Help us!</h3>
+                                 <p class="lead">They have got my project on time with the competition with a sed highly
+                                    skilled,
+                                    and experienced & professional team.</p>
+                              </div>
+                              <div class="testi-meta">
+                                 <img src="images/testi_02.png" alt="" class="img-responsive alignleft">
+                                 <h4>Andrew Atkinson <small>- Life Manager</small></h4>
+                              </div>
+                              <!-- end testi-meta -->
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="testimonial clearfix">
+                              <div class="desc">
+                                 <h3><i class="fa fa-quote-left"></i> The amazing clinic! Wonderful Support!</h3>
+                                 <p class="lead">They have got my project on time with the competition with a sed highly
+                                    skilled,
+                                    and experienced & professional team.</p>
+                              </div>
+                              <div class="testi-meta">
+                                 <img src="images/testi_03.png" alt="" class="img-responsive alignleft">
+                                 <h4>Amanda DOE <small>- Manager of Racer</small></h4>
+                              </div>
+                              <!-- end testi-meta -->
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="testimonial clearfix">
+                              <div class="desc">
+                                 <h3><i class="fa fa-quote-left"></i> Thanks for Help us!</h3>
+                                 <p class="lead">They have got my project on time with the competition with a sed highly
+                                    skilled,
+                                    and experienced & professional team.</p>
+                              </div>
+                              <div class="testi-meta">
+                                 <img src="images/testi_01.png" alt="" class="img-responsive alignleft">
+                                 <h4>Martin Johnson <small>- Founder of Goosilo</small></h4>
+                              </div>
+                              <!-- end testi-meta -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <!-- end col -->
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+               <div class="appointment-form sticky-form">
+                  <h3><span>+</span> Book Appointment</h3>
+                  <div class="form">
+                     <form action="index.html">
+                        <fieldset>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="row">
+                                 <div class="form-group">
+                                    <input type="text" id="name" placeholder="Your Name" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="row">
+                                 <div class="form-group">
+                                    <input type="email" placeholder="Email Address" id="email" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 select-section">
+                              <div class="row">
+                                 <div class="form-group">
+                                    <select class="form-control">
+                                       <option>Day</option>
+                                       <option>Sunday</option>
+                                       <option>Monday</option>
+                                    </select>
+                                 </div>
+                                 <div class="form-group">
+                                    <select class="form-control">
+                                       <option>Time</option>
+                                       <option>AM</option>
+                                       <option>PM</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="row">
+                                 <div class="form-group">
+                                    <select class="form-control">
+                                       <option>Doctor Name</option>
+                                       <option>Mr.XYZ</option>
+                                       <option>Mr.ABC</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="row">
+                                 <div class="form-group">
+                                    <textarea rows="4" id="textarea_message" class="form-control"
+                                       placeholder="Your Message..."></textarea>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="row">
+                                 <div class="form-group">
+                                    <div class="center"><button type="submit">Submit</button></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </fieldset>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <!-- end col -->
+         </div>
+
+      </div>
+
+   </div>
+
+   <div id="service" class="services wow fadeIn">
+      <div class="container">
+         <div class="heading">
+            <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+            <h2 style="color:white;">The Specialist Clinic</h2>
+         </div>
+         <div class="inner-services">
+
+            <div class="owl-carousel owl-theme carousel-3-items">
+               <div class="item">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                              class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_01.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Digital Control Center</h3>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                              class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_02.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Hygienic Operating Room</h3>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                              class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_01.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Digital Control Center</h3>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                              class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_02.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Hygienic Operating Room</h3>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                              class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_01.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Digital Control Center</h3>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                              class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_02.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Hygienic Operating Room</h3>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                              class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_01.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Digital Control Center</h3>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                              class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_02.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Hygienic Operating Room</h3>
+                  </div>
+               </div>
+               <!-- Add more items as needed -->
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div id="doctors" class="parallax section db" data-stellar-background-ratio="0.4" style="background:#9eecff;"
+      data-scroll-id="doctors" tabindex="-1">
+      <div class="container">
+
+         <div class="heading">
+            <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+            <h2>The Specialist Clinic</h2>
+         </div>
+
+         <div class="row dev-list text-center">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s"
+               style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeIn;">
+               <div class="widget clearfix">
+                  <img src="images/doctor_01.jpg" alt="" class="img-responsive img-rounded">
+                  <div class="widget-title">
+                     <h3>Soren Bo Bostian</h3>
+                     <small>Clinic Owner</small>
+                  </div>
+                  <!-- end title -->
+                  <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+
+                  <div class="footer-social">
+                     <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                  </div>
+               </div>
+               <!--widget -->
+            </div><!-- end col -->
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s"
+               style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeIn;">
+               <div class="widget clearfix">
+                  <img src="images/doctor_02.jpg" alt="" class="img-responsive img-rounded">
+                  <div class="widget-title">
+                     <h3>Bryan Saftler</h3>
+                     <small>Internal Diseases</small>
+                  </div>
+                  <!-- end title -->
+                  <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+
+                  <div class="footer-social">
+                     <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                  </div>
+               </div>
+               <!--widget -->
+            </div><!-- end col -->
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn">
+               <div class="widget clearfix">
+                  <img src="images/doctor_03.jpg" alt="" class="img-responsive img-rounded">
+                  <div class="widget-title">
+                     <h3>Matthew Bayliss</h3>
+                     <small>Orthopedics Expert</small>
+                  </div>
+                  <!-- end title -->
+                  <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+
+                  <div class="footer-social">
+                     <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                  </div>
+               </div>
+               <!--widget -->
+            </div><!-- end col -->
+
+         </div><!-- end row -->
+      </div><!-- end container -->
+   </div>
+   <div id="doctors" class="parallax section db" data-stellar-background-ratio="0.4" style="background:#f8fafb;"
+      data-scroll-id="doctors" tabindex="-1">
+      <div class="container">
+
+         <div class="heading">
+            <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+            <h2>Best Hospitals</h2>
+         </div>
+
+         <div class="row dev-list text-center">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s"
+               style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeIn;">
+               <div class="widget clearfix">
+                  <img src="images/h4.jpg" alt="" class="img-responsive img-rounded">
+                  <div class="widget-title">
+                     <h3>Soren Bo Bostian</h3>
+                     <small>Clinic Owner</small>
+                  </div>
+                  <!-- end title -->
+                  <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+
+                  <div class="footer-social">
+                     <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                  </div>
+               </div>
+               <!--widget -->
+            </div><!-- end col -->
+
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s"
+               style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeIn;">
+               <div class="widget clearfix">
+                  <img src="images/h2.jpg" alt="" class="img-responsive img-rounded">
+                  <div class="widget-title">
+                     <h3>Bryan Saftler</h3>
+                     <small>Internal Diseases</small>
+                  </div>
+                  <!-- end title -->
+                  <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+
+                  <div class="footer-social">
+                     <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                  </div>
+               </div>
+               <!--widget -->
+            </div><!-- end col -->
+
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 wow fadeIn">
+               <div class="widget clearfix">
+                  <img src="images/h3.jpg" alt="" class="img-responsive img-rounded">
+                  <div class="widget-title">
+                     <h3>Matthew Bayliss</h3>
+                     <small>Orthopedics Expert</small>
+                  </div>
+                  <!-- end title -->
+                  <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+
+                  <div class="footer-social">
+                     <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                  </div>
+               </div>
+               <!--widget -->
+            </div><!-- end col -->
+
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 wow fadeIn">
+               <div class="widget clearfix">
+                  <img src="images/h2.jpg" alt="" class="img-responsive img-rounded">
+                  <div class="widget-title">
+                     <h3>Matthew Bayliss</h3>
+                     <small>Orthopedics Expert</small>
+                  </div>
+                  <!-- end title -->
+                  <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+
+                  <div class="footer-social">
+                     <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                     <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                  </div>
+               </div>
+               <!--widget -->
+            </div>
+         </div><!-- end row -->
+      </div><!-- end container -->
+   </div>
+   <div class="copyright-area wow fadeIn">
+      <div class="container">
+         <div class="row">
+            <center>
+               <div class="col-md-12">
+                  <div class="footer-text">
+                     <p>Stay healthy and Strong Enjoy Life</p>
+                     <h2 style="color: white;">We Have Team Of HealthCare experts</h2>
+
+                  </div>
+               </div>
+            </center>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+               <div class="row">
+                  <div class="form-group">
+                     <div class="center"><button type="submit">Get IN Touch | 98776767676</button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="testimonials" class="section wb wow fadeIn">
+      <div class="container">
+
+         <div class="row">
+            <div class="col-md-4">
+               <div class="logo padding">
+                  <a href=""><img src="images/logo-img.webp" alt="" style="height:80px; width:190px;"></a>
+                  <p>Locavore pork belly scen ester pine est chill wave microdosing pop uple itarian cliche artisan.</p>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="footer-info padding">
+                  <h3>CONTACT US</h3>
+                  <p><i class="fa fa-map-marker" aria-hidden="true"></i> PO Box 16122 Collins Street West Victoria 8007
+                     Australia</p>
+                  <p><i class="fa fa-paper-plane" aria-hidden="true"></i> info@gmail.com</p>
+                  <p><i class="fa fa-phone" aria-hidden="true"></i> (+1) 800 123 456</p>
+
+               </div>
+
+
+            </div>
+            <div class="col-md-4">
+               <div class="subcriber-info">
+                  <h3>SUBSCRIBE</h3>
+                  <p>Get healthy news, tip and solutions to your problems from our experts.</p>
+                  <div class="subcriber-box">
+                     <form id="mc-form" class="mc-form">
+                        <div class="newsletter-form">
+                           <input type="email" autocomplete="off" id="mc-email" placeholder="Email address"
+                              class="form-control" name="EMAIL">
+                           <button class="mc-submit" type="submit"><i class="fa fa-paper-plane"></i></button>
+                           <div class="clearfix"></div>
+                           <!-- mailchimp-alerts Start -->
+                           <div class="mailchimp-alerts">
+                              <div class="mailchimp-submitting"></div>
+                              <!-- mailchimp-submitting end -->
+                              <div class="mailchimp-success"></div>
+                              <!-- mailchimp-success end -->
+                              <div class="mailchimp-error"></div>
+                              <!-- mailchimp-error end -->
+                           </div>
+                           <!-- mailchimp-alerts end -->
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end container -->
+   </div>
+   <!-- end section -->
+
+   <div class="copyright-area wow fadeIn">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8">
+               <div class="footer-text">
+                  <p>© 2024. Distributed by <a id="tw" href="#" target="_blank">aafiya-mediretreats</a> All rights
+                     Reserved</p>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="social">
+                  <span>Terms And Condition </span>|
+                  <span>Privacy Policy</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end copyrights -->
+   <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+   <!-- all js files -->
+   <script src="js/all.js"></script>
+   <!-- all plugins -->
+   <script src="js/custom.js"></script>
+   <script src="js/owl.carousel.js"></script>
+   <script src="js/jquery.vide.js"></script>
+   <!-- map -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNUPWkb4Cjd7Wxo-T4uoUldFjoiUA1fJc&callback=myMap">
+   </script>
+   <script>
+      document.querySelectorAll('.dropdown-toggle').forEach(button => {
+         button.addEventListener('click', function () {
+            const dropdown = this.parentElement;
+            dropdown.classList.toggle('show');
+         });
+      });
+
+      // Close dropdown if clicking outside
+      document.addEventListener('click', function (event) {
+         if (!event.target.closest('.dropdown')) {
+            document.querySelectorAll('.dropdown').forEach(dropdown => {
+               dropdown.classList.remove('show');
+            });
+         }
+      });
+
+      document.querySelectorAll('.dropdown-toggle').forEach(button => {
+         button.addEventListener('click', function (event) {
+            event.preventDefault();
+            const dropdownMenu = this.nextElementSibling;
+            dropdownMenu.classList.toggle('show');
+         });
+      });
+
+      // Close dropdown if clicking outside
+      document.addEventListener('click', function (event) {
+         if (!event.target.closest('.dropdown')) {
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
+               menu.classList.remove('show');
+            });
+         }
+      });
+
+      document.querySelectorAll('.tab-item').forEach(tab => {
+         tab.addEventListener('click', function () {
+            // Remove 'active' class from all tabs and tab content
+            document.querySelectorAll('.tab-item').forEach(item => item.classList.remove('active'));
+            document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+
+            // Add 'active' class to the clicked tab and corresponding content
+            this.classList.add('active');
+            const targetTab = this.getAttribute('data-tab');
+            document.getElementById(targetTab).classList.add('active');
+         });
+      });
+
+      $(document).ready(function () {
+         $(".accordion-toggle").on("click", function (e) {
+            e.preventDefault(); // Prevent the default action (page refresh)
+
+            var $this = $(this);
+            var targetId = $this.attr("href");
+            var $targetContent = $(targetId);
+
+            // If this accordion is already active, close it
+            if ($this.hasClass("active")) {
+               $this.removeClass("active");
+               $targetContent.slideUp(200);
+               $this.find("i").removeClass("fa-minus").addClass("fa-plus");
+            } else {
+               // Close all other sections
+               $(".accordion-toggle").removeClass("active");
+               $(".content").slideUp(200);
+               $(".accordion-toggle i").removeClass("fa-minus").addClass("fa-plus");
+
+               // Open the current section
+               $this.addClass("active");
+               $targetContent.slideDown(200);
+               $this.find("i").removeClass("fa-plus").addClass("fa-minus");
+            }
+         });
+      });
+
+      $(function () {
+         // Owl Carousel
+         var owl = $(".owl-carousel");
+         owl.owlCarousel({
+            items: 2,
+            margin: 10,
+            loop: true,
+            nav: true,
+            autoplay: true, // Enable auto-sliding
+            autoplayTimeout: 3000, // Time in milliseconds for each slide
+            autoplayHoverPause: true, // Pause on hover
+            dots: true // Enable dots (pagination)
+         });
+
+
+      });
+
+      $(document).ready(function () {
+         $(".carousel-3-items").owlCarousel({
+            items: 3, // Number of items to display
+            margin: 10, // Space between items
+            loop: true, // Loop through items
+            nav: true, // Enable navigation buttons
+            autoplay: true, // Enable autoplay
+            autoplayTimeout: 3000, // Time between slides in ms
+            autoplayHoverPause: true, // Pause on hover
+            dots: true // Enable pagination dots
+         });
+      });
+
+      $(document).ready(function () {
+         $(".owl-carousel").owlCarousel({
+            items: 3, // Number of items to display
+            margin: 10, // Space between items
+            loop: true, // Loop through items
+            nav: true, // Enable navigation buttons
+            autoplay: true, // Enable autoplay
+            autoplayTimeout: 3000, // Time between slides in ms
+            autoplayHoverPause: true, // Pause on hover
+            dots: true // Enable pagination dots
+         });
+      });
+   </script>
+
+
+
+</body>
+
+</html>
